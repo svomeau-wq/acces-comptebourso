@@ -1,12 +1,3 @@
-"""
-Application bancaire inspirée de Boursorama
--------------------------------------------
-Lance avec :
-    pip install -r requirements.txt
-    python app.py
-Puis va sur http://127.0.0.1:5000
-"""
-
 from flask import Flask, render_template, request, redirect, url_for, session, flash, send_file, jsonify
 from datetime import datetime, timedelta
 from io import BytesIO
